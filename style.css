@@ -12,11 +12,14 @@ body{
 .header{
     background-image: url("images/banner/banner1.png");
     background-repeat: no-repeat;
-     background-size: top left;
+     background-size:  cover;
      display: flex;
      justify-content: end;
+     align-items: center;
      padding: 20px 80px;
      text-align: right;
+     height:  600px;
+     background-position: top left;
 
 }
 
@@ -39,4 +42,214 @@ body{
     text-align: right;
     font-size: 16px;
     font-weight: 400;
+    padding-bottom: 20px;
  }
+ .content div button{
+        width: 160px;
+        height: 50px;
+        border-radius: 5px;
+        background: #F15B22;
+        color: #FFF;
+        /* text-align: right; */
+        font-size: 15px;
+        font-weight: 600;
+        border: none;
+        cursor: pointer;
+ }
+
+ /*  banner part img and content  */
+
+ .headerbanner{
+    background: #FFF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 59px auto;
+ }
+ .imgpart img{
+    width: 79%;
+ }
+
+
+ .contentPart ul li{
+    list-style: none;
+    margin-top: 5px;
+    
+ }
+
+ .contentPart ul li i{
+    margin-right: 20px;
+    color: #77E8B9;
+ }
+ .contentPart h2{
+    color:   #151414;
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 20px;
+ 
+ }
+
+ .contentPart p{
+    color:  #444343;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 20px;
+    
+ }
+
+ /*  plans part styles ===>> */
+
+ .may-plans h1{
+    color:  #151414;
+     font-size: 40px;
+     font-weight: 700;
+    text-align: center;
+ }
+
+ .may-plans {
+    margin-top: 20px;
+ }
+
+ .card {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+    padding-bottom: 40px;
+ }
+.cards-item {
+    text-align: center;
+    padding: 5px;
+}
+ .cards-item h4{
+    color:   #151414;
+    text-align: center;
+     font-size: 30px;
+     font-weight: 700;
+    
+ }
+
+ .cards-item p{
+    color:   #737272;
+    text-align: center;
+     font-size: 18px;
+     font-weight: 500;
+ 
+ }
+
+ /*  positive part  */
+
+ .positive {
+     display: flex;
+     justify-content:  space-around;
+     align-items: center;
+     margin-top: 109px;
+     /* margin: 0 auto; */
+ }
+
+ main{
+    padding-bottom: 50px;
+ }
+
+ .containerPart{
+    background-image: url("images/gradient2.png") , url("images/watch.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:   top left;
+    color: white;
+    width: 1141px;
+    height: 301px;
+    padding: 20px;
+    align-items: center;
+ }
+
+ .containerPart h1{
+     color: #FFF;
+     font-size: 40px;
+     font-weight: 700;
+     margin-top: 66px;
+ }
+
+ .containerPart button{
+    width: 160px;
+    height: 51px;
+    color: #F15B22;
+    text-align: center;
+     font-size: 15px;
+     font-weight: 600;
+     background-color: white;
+    border: none;
+    border-radius: 6px;
+    margin-top: 47px;
+    cursor: pointer;
+ }
+
+ /*  fotter style here  */
+
+ footer{
+    background-color: #151414;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px;
+    padding-bottom: 20px;
+    padding-top: 113px;
+ }
+
+ .content h1{
+
+    color: #F8F8F8;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    padding-bottom: 20px;
+ }
+
+ .content p{
+
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 20px;
+  }
+
+  .icons{
+    margin-top: 20px;
+  }
+  .icons img{
+    margin-right: 20px;
+  }
+
+
+  .footerFrom h2{
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 25px;
+    font-weight: 600;
+     
+  }
+
+  .footerFrom input{
+     border: 2px solid white;
+     background-color: black;
+     outline: none;
+     border-radius: 5px;
+     padding-left: 15px;
+     width: 185px;
+     height: 40px;
+     color: white;
+  }
+
+  .footerFrom button{
+   width: 167.106px;
+   height: 46px;
+   color: #F15B22;
+   font-family: Inter;
+   font-size: 20px;
+   font-weight: 600;
+    margin-top: 12px;
+   border-radius: 6px;
+   cursor: pointer;
+  }
